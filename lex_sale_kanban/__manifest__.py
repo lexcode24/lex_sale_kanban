@@ -18,7 +18,7 @@
     'category': 'Sales',
     'version': '15.0',
     'license': 'OPL-1',
-    'price': 19.95,
+    'price': 49.95,
     'currency': 'EUR',
     # any module necessary for this one to work correctly
     'depends': ['base', 'sale'],
@@ -28,5 +28,9 @@
         'security/ir.model.access.csv',
         'views/views.xml',
         'views/inherit.xml',
-    ]
+    ],
+    'images': ['static/description/banner.gif'],
+    'installable': True,
+    'application': True,
+    'auto_install': False,
 }
