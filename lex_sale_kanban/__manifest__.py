@@ -15,8 +15,8 @@
     # Check https://github.com/odoo/odoo/blob/14.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
     'category': 'Sales',
-    'version': '15.0.0.1',
-    'license': 'AGPL-3',
+    'version': '15.0',
+    'license': 'OPL-1',
     'price': 19.95,
     'currency': 'EUR',
     # any module necessary for this one to work correctly
