@@ -6,15 +6,15 @@
         <field name="inherit_id" ref="sale.view_sale_order_kanban"/>
         <field name="arch" type="xml">
             <xpath expr="//kanban" position="replace">
-                <kanban class="o_kanban_mobile" default_group_by="stage_id">
+                <kanban class="o_kanban_mobile" default_group_by="lex_stage_id">
                     <field name="name"/>
+                    <field name="partner_id"/>
                     <field name="amount_total"/>
                     <field name="date_order"/>
                     <field name="state"/>
                     <field name="currency_id"/>
                     <field name="activity_state"/>
-                    <progressbar field="activity_state"
-                                 colors="{&quot;planned&quot;: &quot;success&quot;, &quot;today&quot;: &quot;warning&quot;, &quot;overdue&quot;: &quot;danger&quot;}"/>
+                     <progressbar field="activity_state" colors='{"planned": "success", "today": "warning", "overdue": "danger"}'/>
                     <templates>
                         <t t-name="kanban-box">
                             <div t-attf-class="oe_kanban_card oe_kanban_global_click">
