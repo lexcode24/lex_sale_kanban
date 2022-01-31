@@ -6,6 +6,7 @@
         Kanban view for Sale module""",
 
     'description': """
+    Kanban view for Sale module with a complete Button of the form view.
     """,
 
     'author': "Alexander Kroeker",
