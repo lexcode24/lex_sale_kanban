@@ -1,1 +1,1 @@
-# lex_sale_kanban
+# Kanban with staging for sale module
